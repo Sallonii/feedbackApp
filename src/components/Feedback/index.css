@@ -1,0 +1,32 @@
+/* Write your CSS code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  width: 80%;
+  width: 700px;
+
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+}
+.heading {
+  text-align: center;
+}
+.emoji-list {
+  list-style-type: none;
+}
+.list-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.submitted {
+  display: none;
+}
